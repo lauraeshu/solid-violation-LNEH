@@ -1,18 +1,19 @@
 public class Envio {
+    String tipo;
+    Integer precio;
 
-  String tipo;
-  Integer precio;
+    Envio(String tipo, Integer precio ) {
+        this.tipo = tipo;
+        this.precio = precio;
 
-  Envio(String tipo, Integer precio) {
-    this.tipo = tipo;
-    this.precio = precio;
-  }
+    }
 
-  String getTipoEnvio() {
-    return this.tipo;
-  }
+    String getTipoEnvio() {
+        return this.tipo;
+    }
 
-  void crearTipoEnvio(Envio envio) {
-    //Save Envio DB
-  }
+    void crearTipoEnvio(Envio envio) {
+        //Save Envio DB
+    }
+
 }
