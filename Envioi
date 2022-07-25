@@ -1,6 +1,0 @@
-interface Envioi {
-
-
-    public void imprimir (Envio [] envios);
-
-}
